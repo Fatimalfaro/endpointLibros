@@ -6,7 +6,11 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": ["server", "port", "middlewares"],
+  "keywords": [
+    "server",
+    "port",
+    "middlewares"
+  ],
   "author": "Alfaro Fátima",
   "license": "ISC",
   "devEngines": {
@@ -16,5 +20,8 @@
       "onFail": "download"
     }
   },
-  "type": "module"
+  "type": "module",
+  "dependencies": {
+    "express": "^5.2.1"
+  }
 }
