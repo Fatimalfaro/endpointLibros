@@ -4,7 +4,7 @@ const app = express();
 const PORT = 3000; 
 
 
-console.log("Primer mensaje")
+console.log("Primer mensaje y segundo mensaje")
 
 app.listen(PORT, () => {
     console.log(`Servidor activo en el puerto ${PORT}`)
