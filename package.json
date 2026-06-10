@@ -14,13 +14,7 @@
   ],
   "author": "Alfaro Fátima",
   "license": "ISC",
-  "devEngines": {
-    "packageManager": {
-      "name": "pnpm",
-      "version": "^11.5.2",
-      "onFail": "download"
-    }
-  },
+  "packageManager": "pnpm@11.5.1",
   "type": "module",
   "dependencies": {
     "cors": "^2.8.6",
